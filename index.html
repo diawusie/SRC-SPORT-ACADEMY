@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<title> SRC SPORTS ACADEMY</title>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+		<a href="#" class="nav-branding"> SRC SPORTS ACADEMY.</a>
+		<ul class="nav-menu show">
+			<li class="nav-item">
+				<a href="/" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/blog.html" class="nav-link">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/about.html" class="nav-link">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/newactivities.html" class="nav-link">New Activities</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/bookonline.html" class="nav-link">Book Online</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/events.html" class="nav-link">Events</a>
+			</li>
+			<li class="nav-item">
+				<a href="../html/register.html" class="nav-link">Register</a>
+			</li>
+		</ul>
+		<div class="hamburger">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+	</nav>
+</header>
+    </div>
+    <div class="head">
+    	<div id="part1">
+    		<p class="emp" style="font-size:300%;padding-top:20%;"><b>EMPOWER YOURSELF</b></p>
+    		<p class="ccc" style="font-family: Arial;"><b>Sports courses taught by the experts</b></p>
+    		<p class="we">A Fit Life Is A Life Worth Living.</p>
+    		<form class="find" action="www.games.com">
+    			<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fas fa-search"></i></button>    		</form>
+    	</div>
+    </div>
+    <div class="second">
+    	<div id="second-one">
+
+    	</div>
+    	<div id="second-two">
+    		<p class="afew"> <b>A few words about us</b></p>
+    		<p class="words">We offer a student-based emergent curriculum complete with low teacher to child ratios. Come see our environment and how it is designed to promote exploration, adventurous and imaginative learning. We believe that students are active participators in their own learning. Thats why we encourage them to unearth their inner genius and hone them to their full potential.</p>
+    		<form>
+    			<button type="submit">read more</button>
+    		</form>
+    	</div>
+    </div>
+    <div class="courses">
+    	<h1 class="index-c">Here We Do The Following</h1>
+    	<div class="grid-container">
+    	<div class="grid-item">
+    		<img src="/media/socc.jpg">
+    		<p id="cou">Soccer</p>
+    	</div>
+    	<div class="grid-item">
+    		<img src="/media/gym.jpg">
+    		<p id="cou">Gymnastics</p>
+    	</div>
+    	<div class="grid-item">
+    		<img src="/media/rugby.jpg">
+    		<p id="cou">Rugby</p>
+    	</div>
+    	<div class="grid-item">
+    		<img src="/media/ballet.jpg">
+    		<p id="cou">Ballet</p>
+    	</div>
+    </div>
+    </div>
+<br>
+<br>
+
+	<script src="script.js"></script>
+	  
+	<!-- Add visitor counter -->
+	<div id="visitor-counter">
+	  <p id="counter">Visitors: <span id="count">0</span></p>
+	</div>
+	
+	<script>
+	  // Get the visitor count from local storage
+	  let count = localStorage.getItem('visitorCount');
+	  if (!count) {
+		count = 0;
+	  }
+	  
+	  // Increment the visitor count
+	  count++;
+	  
+	  // Update the visitor count in local storage
+	  localStorage.setItem('visitorCount', count);
+	  
+	  // Display the visitor count
+	  document.getElementById('count').innerHTML = count;
+	</script>
+
+    <form action="POST" class="ind-new">
+				  <div class="contain">
+				    <h2 class="yh">Subscribe to our Newsletter</h2>
+				  </div>
+
+				  <div class="contain">
+				    <input type="text1" placeholder="Name" name="name" required>
+				    <input type="text1" placeholder="Email address" name="mail" required>
+				    <label>
+						<input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+				    </label>
+				  </div>
+
+				  <div class="contain">
+				    <input type="submit" value="Subscribe">
+				  </div>
+				</form>   
+				<div class="imavid">
+					<div class="image-imavid">
+					 <img src="../media/workout.jpg" alt="Volleyball">
+					</div>
+					<div class="video-imavid">
+					 <video autoplay muted loop><source type="video/mp4" src="../media/soccer.mp4"></video>
+					</div>
+					
+				   </div>
+    <footer>
+        
+        <div class="social" id="social">
+        <img src = "/media/facebook.png">
+        <img src = "/media/instagram.png">
+        <img src = "/media/google.png">
+        <img src = "/media/social.png">
+        <img src = "/media/pinterest.png">
+        <img src = "/media/linkedin.png">
+        
+        
+        <div class="copyright">
+          <p class="copyright">Copyright@2024, SRC Sports Academy.</p>
+          
+        </div>
+		</div>
+      </footer>
+	 
+</body>
+</html>
